@@ -10,6 +10,9 @@ install.packages("lubridate")
 # Import da biblioteca
 require(lubridate)
 
+# Pacotes carregados
+search()
+
 # Dataframe de datas
 sono <- data.frame(bed.time = ymd_hms("2013-09-01 23:05:24", "2013-09-02 22:51:09", 
                                       "2013-09-04 00:09:16", "2013-09-04 23:43:31", "2013-09-06 00:17:41", "2013-09-06 22:42:27", 
