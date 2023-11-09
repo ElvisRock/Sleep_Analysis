@@ -4,7 +4,7 @@
 # Pacote lubridate
 ?lubridate
 
-# Instala a ferramenta
+# Instala o pacote
 install.packages("lubridate")
 
 # Import da biblioteca
