@@ -1,3 +1,3 @@
 # Analise_Sono_
 
-![](sono.png)
+![](Sono.png)
