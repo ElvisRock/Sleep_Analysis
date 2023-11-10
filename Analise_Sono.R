@@ -42,3 +42,24 @@ plot(round_date(sono$rise.time, "day"), sono$sleep.time/3600, type = "o", col = 
 axis(side = 4)
 mtext(side = 4, line = 2.5, col = "red", "Duração do Sono")
 mtext(side = 2, line = 2.5, col = "blue", "Eficiência do Sono")
+
+
+
+
+
+# Salvando os gráficos
+png("Sono.png", width = 800, height = 600, res = 100)
+
+# Gerar o gráfico
+par(mar = c(5, 4, 4, 4))
+plot(round_date(sono$rise.time, "day"), sono$eficiencia, type = "o", col = "blue", xlab = "Manhã", ylab = NA)
+par(new = TRUE)
+plot(round_date(sono$rise.time, "day"), sono$sleep.time/3600, type = "o", col = "red", axes = FALSE, ylab = NA, xlab = NA)
+axis(side = 4)
+mtext(side = 4, line = 2.5, col = "red", "Duração do Sono")
+mtext(side = 2, line = 2.5, col = "blue", "Eficiência do Sono")
+
+# Fechar o dispositivo gráfico
+dev.off()
+
+
