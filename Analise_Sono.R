@@ -62,4 +62,5 @@ mtext(side = 2, line = 2.5, col = "blue", "Eficiência do Sono")
 # Fechar o dispositivo gráfico
 dev.off()
 
+# Fim
 
