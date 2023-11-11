@@ -30,7 +30,7 @@ sono
 sono$eficiencia <- round(sono$sleep.time/(sono$rise.time - sono$bed.time) * 100, 1)
 sono
 
-# Visualiza em tabela interativas
+# Visualiza em tabela interativa
 View(sono)
 
 
