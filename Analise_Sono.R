@@ -1,6 +1,6 @@
 # A eficiência e duração do sono
 
-# Data do SO
+# Data do Sistema Operacional
 Sys.Date()
 format(Sys.Date(),format = "Olá, Hoje é %A!")
 
